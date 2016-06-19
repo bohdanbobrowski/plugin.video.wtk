@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.wtk" name="WTK Play" version="1.0" provider-name="Bohdan Bobrowski">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simplejson" version="2.0.10"/>
+    <import addon="script.module.beautifulsoup" version="3.0.8"/>
+    <import addon="script.module.elementtree" version="1.2.7"/>
+    <import addon="script.module.parsedom" version="0.9.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>pl</language>
+    <summary lang="pl">WTK to nowoczesna telewizja regionalna o profilu informacyjnym stworzona z myślą o wszystkich mieszkańcach aglomeracji poznańskiej i Wielkopolski oraz osobach przyjezdnych.</summary>
+    <summary lang="en"></summary>
+    <description lang="pl"> Codziennie prezentuje najświeższe informacje, najważniejsze wydarzenia kulturalne i pomysły na spędzanie czasu w stolicy Wielkopolski. WTK posiada bogatą ofertę programów informacyjnych ("Puls Dnia", "Qulturalny Poznań", "Serwis komunikacyjny", "Prognoza pogody", „Sport”), w telewizji nie brakuje również interakcji z widzami ("Gorący Temat", "Otwarta Antena"). Poza informacjami WTK proponuje wiele magazynów tematycznych oraz programów rozrywkowych prowadzonych przez znanych i cenionych dziennikarzy ("Tajemnice Poznania", "Na Zdrowie", "Motomania", "Połykacze książek", etc.). Ważną częścią naszej ramówki są transmisje na żywo z ciekawych wydarzeń kulturalnych, społecznych czy sportowych.</description>
+    <description lang="en"></description>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website></website>
+    <source></source>
+  </extension>
+</addon>
